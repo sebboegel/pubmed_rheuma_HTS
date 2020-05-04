@@ -1,0 +1,45 @@
+disease	samples	assay
+SLE	1087	RNA-Seq
+SLE	646	Bisulfite-Seq
+SLE	87	ChIP-Seq
+SLE	40	Metagenomics/16S rRNA
+SLE	372	Targeted-capture
+SLE	54	WGS
+SLE	10	miRNA-Seq
+SLE	3	ncRNA-Seq
+SLE	92	ATAC-Seq
+SLE	48	Metagenomics/16S rRNA
+Rheumatoid arthritis	59	RNA-Seq
+Rheumatoid arthritis	36	ATAC-Seq
+Rheumatoid arthritis	56	Bisulfite-Seq
+Rheumatoid arthritis	314	ChIP-Seq
+Rheumatoid arthritis	5	HI-C
+Rheumatoid arthritis	33	miRNA-Seq
+Rheumatoid arthritis	5899	RNA-Seq
+Systemic sclerosis	155	Targeted-capture
+Systemic sclerosis	6	ATAC-Seq
+Systemic sclerosis	51	ChIP-Seq
+Systemic sclerosis	379	RNA-Seq
+Systemic sclerosis	32	WES
+Osteoarthritis	27	ATAC-Seq
+Osteoarthritis	28	Bisulfite-Seq
+Osteoarthritis	195	ChIP-Seq
+Osteoarthritis	21	miRNA-Seq
+Osteoarthritis	570	RNA-Seq
+Osteoarthritis	3	WES
+Vasculitis	33	RNA-Seq
+Vasculitis	79	Targeted-capture
+Juvenile idiopathic arthritis	24	ChIP-Seq
+Juvenile idiopathic arthritis	22	MEDIP-Seq/MRE-Seq
+Juvenile idiopathic arthritis	522	RNA-Seq
+lupus nephritis	31	RNA-Seq
+lupus nephritis	29	miRNA-Seq
+myositis, polymyositis, dermatomyositis	112	RNA-Seq
+myositis, polymyositis, dermatomyositis	19	miRNA-Seq
+psoriatic arthritis	37	RNA-Seq
+psoriatic arthritis	2	miRNA-Seq
+spondyloarthritis	70	Targeted-capture
+spondyloarthritis	50	Metagenomics/16S rRNA
+spondyloarthritis	45	RNA-Seq
+spondyloarthritis	40	WGS
+Synovitis	20	RNA-Seq

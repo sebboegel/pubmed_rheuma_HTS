@@ -1,0 +1,28 @@
+disease	tissue	samples
+RA	pbmc/peripheral/whole blood/plasma	4545
+RA	synovium/fibroblast-like synoviocytes	230
+RA	osteoblasts	4
+RA	T cells	22
+SLE	pbmc/peripheral/whole blood/plasma	884
+SLE	T cells	13
+SLE	skin biopsies	10
+SLE	feces/stool	27
+Systemic sclerosis	pbmc/peripheral/whole blood/plasma	307
+Systemic sclerosis	bronchoalveolar lavage	10
+Systemic sclerosis	fibroblasts	48
+Systemic sclerosis	skin biopsies	91
+Osteoarthritis	cartilage	209
+vascultits	pbmc/peripheral/whole blood/plasma	112
+juvenile idiopathic arthritis	pbmc/peripheral/whole blood/plasma	372
+juvenile idiopathic arthritis	synovium/fibroblast-like synoviocytes	24
+juvenile idiopathic arthritis	monocytes	32
+lupus nephritis	kidney	27
+lupus nephritis	pbmc/peripheral/whole blood/plasma	29
+myositis, polymyositis, dermatomyositis	muscle	51
+myositis, polymyositis, dermatomyositis	pbmc/peripheral/whole blood/plasma	80
+psoriatic arthritis	pbmc/peripheral/whole blood/plasma	23
+psoriatic arthritis	synovium/fibroblast-like synoviocytes	15
+spondyloarthritis	feces/stool	70
+spondyloarthritis	pbmc/peripheral/whole blood/plasma	33
+spondyloarthritis	synovium/fibroblast-like synoviocytes	12
+Synovitis	soft tissue	20
