@@ -419,6 +419,8 @@ sra_datasets$samples=as.integer(sra_datasets$samples)
 sra_datasets[sra_datasets$disease=="myositis, polymyositis, dermatomyositis",]$disease="(poly/derma)myositis"
 sra_datasets$disease=stringr::str_to_title(sra_datasets$disease)
 SRA_tissues <- read.delim("~/pubmed_rheuma_HTS/SRA_tissues.txt")
+SRA_tissues$disease=as.character(SRA_tissues$disease)
+SRA_tissues[SRA_tissues$disease=="myositis, polymyositis, dermatomyositis",]$disease="(poly/derma)myositis"
 #---plot figures
 ggplot(data=sra_datasets, aes(x=reorder(disease,-samples),y=samples,fill=assay)) + geom_bar(position="stack",stat="identity") + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size=13, colour="black"), 
