@@ -12,14 +12,14 @@ abstracts_xml <- fetch_pubmed_data(pubmed_ids,retmax = 5000)
 abstracts_list <- articles_to_list(abstracts_xml)
 final=c("")
 for (key in abstracts_list){
-keywords = custom_grep(key,"KeywordList","char")
-
-if(!is.null(keywords)){
-out=str_replace_all(keywords,"<Keyword MajorTopicYN=\"N\">","")
-out=str_replace_all(out,"<Keyword MajorTopicYN=\"Y\">","")
-out=strsplit(out,"</Keyword>")[[1]]
-final=c(final,out)
-}
+  keywords = custom_grep(key,"KeywordList","char")
+  
+  if(!is.null(keywords)){
+    out=str_replace_all(keywords,"<Keyword MajorTopicYN=\"N\">","")
+    out=str_replace_all(out,"<Keyword MajorTopicYN=\"Y\">","")
+    out=strsplit(out,"</Keyword>")[[1]]
+    final=c(final,out)
+  }
 }
 final=final[final!=" "]
 final=tolower(final)
@@ -30,9 +30,9 @@ icd11 <- read.delim("~/icd11.txt", stringsAsFactors=FALSE)
 icd11$Title=tolower(icd11$Title)
 
 for (key in final){
-retrows=icd11[icd11$Title %like% key,]
-if (length(retrows) >= 1){
-  finalICD11_filtered=c(finalICD11_filtered,key)}}
+  retrows=icd11[icd11$Title %like% key,]
+  if (length(retrows) >= 1){
+    finalICD11_filtered=c(finalICD11_filtered,key)}}
 finalTable_freq=table(finalICD11_filtered)  
 View(finalTable_freq)  
 #253 entries in finalTable_freq
@@ -55,22 +55,22 @@ Epigenomic=c("atac-seq","chip-seq","bisulfite sequencing","wgbs")
 
 result=NULL
 for (key in abstracts_list){
-review=custom_grep(key,"PublicationType","char")
-journal=str_replace(custom_grep(custom_grep(key,"Journal","char"),"Title","char"),"&amp;","&")
-year=custom_grep(custom_grep(key,"PubDate","char"),"Year","char")
-title=custom_grep(key,"ArticleTitle","char")
-title=tolower(title)
-abstract = custom_grep(key,"Abstract","char")
-abstract=tolower(abstract)
-keywords=custom_grep(key,"KeywordList","char")
-keywords=tolower(keywords)
-title_abstract_key=paste(title,abstract,sep=",")
-title_abstract_key=paste(title_abstract_key,keywords,sep=",")
-
-pubmedid=custom_grep(key,"PMID","char")
-
-if(!is.null(title_abstract_key) & length(grep("Review",review))==0){
-  assay=""  
+  review=custom_grep(key,"PublicationType","char")
+  journal=str_replace(custom_grep(custom_grep(key,"Journal","char"),"Title","char"),"&amp;","&")
+  year=custom_grep(custom_grep(key,"PubDate","char"),"Year","char")
+  title=custom_grep(key,"ArticleTitle","char")
+  title=tolower(title)
+  abstract = custom_grep(key,"Abstract","char")
+  abstract=tolower(abstract)
+  keywords=custom_grep(key,"KeywordList","char")
+  keywords=tolower(keywords)
+  title_abstract_key=paste(title,abstract,sep=",")
+  title_abstract_key=paste(title_abstract_key,keywords,sep=",")
+  
+  pubmedid=custom_grep(key,"PMID","char")
+  
+  if(!is.null(title_abstract_key) & length(grep("Review",review))==0){
+    assay=""  
     
     for (epi in Epigenomic){
       if (length(grep(epi,title_abstract_key))>0){assay=paste(assay,"Epigenomics",sep=",")}
@@ -89,21 +89,21 @@ if(!is.null(title_abstract_key) & length(grep("Review",review))==0){
       
       if (length(grep(wxs,title_abstract_key))>0){
         if(!grepl("WES",assay)){
-        assay=paste(assay,"WES",sep=",")}}
+          assay=paste(assay,"WES",sep=",")}}
     }
     for (wgs in WGS){
       if (length(grep(wgs,title_abstract_key))>0){assay=paste(assay,"WGS",sep=",")}
     }
     for (disease in diseases){
-    #print(disease)
+      #print(disease)
       if (length(title_abstract_key)>0){
-      if(title_abstract_key %like% disease){
-        
-      result=rbind(result,c(disease,pubmedid[1],substr(assay,2,nchar(assay)),journal,year))
+        if(title_abstract_key %like% disease){
+          
+          result=rbind(result,c(disease,pubmedid[1],substr(assay,2,nchar(assay)),journal,year))
+        }
+      }
     }
-}
-}
-}
+  }
 }
 
 
@@ -112,9 +112,10 @@ names(result_df)=c("disease","pmid","assay","journal","year")
 result_df$assay=as.character(result_df$assay)
 result_df$disease=as.character(result_df$disease)
 result_df$disease=stringr::str_to_title(result_df$disease)
+result_df$pmid=as.character(result_df$pmid)
 
 #manually adding missing data by looking at each publication using the PMID
-result_df$pmid=as.character(result_df$pmid)
+
 result_df[result_df$pmid=="31428656",]$assay="RNA-Seq"
 result_df[result_df$pmid=="31370803",]$assay="Metagenomics"
 result_df[result_df$pmid=="31360262",]$assay="RNA-Seq"
@@ -314,7 +315,7 @@ ggplot(data=result_df, aes(x=fct_infreq(disease),fill=assay_main)) + geom_bar(po
         axis.title.x = element_blank(), axis.text.y=element_text(colour="black", size = 13), axis.title.y=element_text(colour="black", size = 14)) +
   theme(legend.title = element_blank()) +
   scale_fill_brewer(palette = "Paired") + scale_y_continuous(breaks=seq(0,110,10)) +
-  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_line(colour = "#d3d3d3"), 
+  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), panel.background = element_blank())
 
 ggplot(data=subset(result_df,assay_main=="Other"), aes(x=fct_infreq(disease),fill=assay)) + geom_bar(position="stack",stat="count") + 
@@ -323,12 +324,13 @@ ggplot(data=subset(result_df,assay_main=="Other"), aes(x=fct_infreq(disease),fil
         axis.title.x = element_blank(), axis.text.y=element_text(colour="black", size = 13), axis.title.y=element_text(colour="black", size = 14)) +
   theme(legend.title = element_blank()) +
   scale_fill_brewer(palette = "Paired") +
-  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_line(colour = "#d3d3d3"), 
+  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), panel.background = element_blank())
 
 result_df_unique=result_df
 result_df_unique$disease=NULL
 result_df_unique=unique(result_df_unique)
+result_df_unique$year=as.character(result_df_unique$year)
 
 ggplot(data=result_df_unique, aes(x=year,fill=assay_main)) + geom_bar(position="stack",stat="count") + 
   labs(y="# unique publications on pubmed") +
@@ -336,18 +338,20 @@ ggplot(data=result_df_unique, aes(x=year,fill=assay_main)) + geom_bar(position="
         axis.title.x = element_blank(), axis.text.y=element_text(colour="black", size = 13), axis.title.y=element_text(colour="black", size = 14)) +
   theme(legend.title = element_blank()) +
   scale_fill_brewer(palette = "Paired") + scale_y_continuous(breaks=seq(0,160,10)) +
-  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_line(colour = "#d3d3d3"), 
+  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), panel.background = element_blank())
 
 
-
+journal_freq=table(result_df$journal)
+journal_freq=as.data.frame(journal_freq)
+names(journal_freq)=c("journal","freq")
 ggplot(data=subset(result_df_unique,journal %in% journal_freq[journal_freq$freq>=5,]$journal), aes(x=fct_infreq(journal),fill=assay_main)) + geom_bar(position="stack",stat="count") + 
   labs(y="# unique publications on pubmed") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size=13, colour="black"), 
         axis.title.x = element_blank(), axis.text.y=element_text(colour="black", size = 13), axis.title.y=element_text(colour="black", size = 14)) +
   theme(legend.title = element_blank()) +
   scale_fill_brewer(palette = "Paired") + scale_y_continuous(breaks=seq(0,40,10)) +
-  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_line(colour = "#d3d3d3"), 
+  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), panel.background = element_blank())
 
 
@@ -381,7 +385,7 @@ for (key in abstracts_list){
     title=custom_grep(key,"ArticleTitle","char")
     abstract = custom_grep(key,"Abstract","char")
     TableForPub=rbind(TableForPub,c(pubmedid[1],title,abstract))
-    }
+  }
 }
 
 #create table with title and abstract of all identified publications
@@ -402,7 +406,7 @@ write.csv2(TableForPub,"~/Documents/Lupus_NGS/title_and_abstracts.csv")
 
 #2nd analysis----------------------------------------------------
 #SRA datasets
-sra_datasets <- read.delim("~/Documents/Lupus_NGS/sra_datasets.txt")
+sra_datasets <- read.delim("~/pubmed_rheuma_HTS/sra_datasets.txt")
 sra_datasets=as.data.frame(sra_datasets)
 sra_datasets$assay=as.character(sra_datasets$assay)
 sra_datasets[sra_datasets$assay=="miRNA-Seq",]$assay="miRNA/ncRNA-Seq"
@@ -414,14 +418,14 @@ sra_datasets$disease=as.character(sra_datasets$disease)
 sra_datasets$samples=as.integer(sra_datasets$samples)
 sra_datasets[sra_datasets$disease=="myositis, polymyositis, dermatomyositis",]$disease="(poly/derma)myositis"
 sra_datasets$disease=stringr::str_to_title(sra_datasets$disease)
-SRA_tissues <- read.delim("~/Documents/Lupus_NGS/SRA_tissues.txt")
+SRA_tissues <- read.delim("~/pubmed_rheuma_HTS/SRA_tissues.txt")
 #---plot figures
 ggplot(data=sra_datasets, aes(x=reorder(disease,-samples),y=samples,fill=assay)) + geom_bar(position="stack",stat="identity") + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size=13, colour="black"), 
         axis.title.x = element_blank(), axis.text.y=element_text(colour="black", size = 13), axis.title.y=element_text(colour="black", size = 14)) +
   theme(legend.title = element_blank()) +
   scale_fill_brewer(palette = "Paired") + scale_y_continuous(breaks=seq(0,7000,1000)) +
-  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_line(colour = "#d3d3d3"), 
+  theme(axis.line = element_line(size=1, colour = "black"), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(), panel.background = element_blank())
 ggplot(data=SRA_tissues, aes(x="",y=samples,fill=tissue)) + geom_bar(stat="identity",position = position_fill()) + 
   geom_text(aes(label = samples), position = position_fill(vjust = 0.5)) + coord_polar(theta = "y") + 
