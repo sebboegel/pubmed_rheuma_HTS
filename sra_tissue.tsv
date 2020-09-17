@@ -1,0 +1,533 @@
+disease	samples	tissue
+GPA	0	blood/immune cells
+GPA	0	cartilage
+GPA	0	joint
+GPA	0	knee
+GPA	0	synovium
+GPA	0	spleen
+GPA	0	lymph node
+GPA	0	retina
+GPA	0	bone marrow
+GPA	0	fibroblasts
+GPA	7	not defined
+GPA	0	soft tissue
+GPA	0	salivary gland
+GPA	0	muscle
+GPA	0	stool
+GPA	0	kidney
+GPA	0	skin
+GPA	324	nasal swab
+SLE	432	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	6	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	1345	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	6	kidney
+SLE	0	skin
+SysSclerosis	355	blood/immune cells
+SysSclerosis	0	cartilage
+SysSclerosis	0	joint
+SysSclerosis	0	knee
+SysSclerosis	0	synovium
+SysSclerosis	0	spleen
+SysSclerosis	0	lymph node
+SysSclerosis	0	retina
+SysSclerosis	0	bone marrow
+SysSclerosis	0	fibroblasts
+SysSclerosis	241	not defined
+SysSclerosis	0	soft tissue
+SysSclerosis	0	salivary gland
+SysSclerosis	0	muscle
+SysSclerosis	0	stool
+SysSclerosis	0	kidney
+SysSclerosis	109	skin
+SysSclerosis	48	fibroblast
+Synovitis	0	blood/immune cells
+Synovitis	0	cartilage
+Synovitis	0	joint
+Synovitis	0	knee
+Synovitis	12	synovium
+Synovitis	0	spleen
+Synovitis	0	lymph node
+Synovitis	0	retina
+Synovitis	0	bone marrow
+Synovitis	0	fibroblasts
+Synovitis	22	not defined
+Synovitis	0	soft tissue
+Synovitis	0	salivary gland
+Synovitis	0	muscle
+Synovitis	0	stool
+Synovitis	0	kidney
+Synovitis	0	skin
+JIA	404	blood/immune cells
+JIA	0	cartilage
+JIA	0	joint
+JIA	0	knee
+JIA	24	synovium
+JIA	0	spleen
+JIA	0	lymph node
+JIA	0	retina
+JIA	0	bone marrow
+JIA	0	fibroblasts
+JIA	345	not defined
+JIA	0	soft tissue
+JIA	0	salivary gland
+JIA	0	muscle
+JIA	0	stool
+JIA	0	kidney
+JIA	0	skin
+OA	20	blood/immune cells
+OA	218	cartilage
+OA	21	joint
+OA	0	knee
+OA	102	synovium
+OA	0	spleen
+OA	0	lymph node
+OA	0	retina
+OA	0	bone marrow
+OA	0	fibroblasts
+OA	1025	not defined
+OA	0	soft tissue
+OA	0	salivary gland
+OA	0	muscle
+OA	0	stool
+OA	0	kidney
+OA	0	skin
+Sjoegren	64	blood/immune cells
+Sjoegren	0	cartilage
+Sjoegren	0	joint
+Sjoegren	0	knee
+Sjoegren	0	synovium
+Sjoegren	0	spleen
+Sjoegren	0	lymph node
+Sjoegren	0	retina
+Sjoegren	0	bone marrow
+Sjoegren	0	fibroblasts
+Sjoegren	199	not defined
+Sjoegren	0	soft tissue
+Sjoegren	63	salivary gland
+Sjoegren	0	muscle
+Sjoegren	0	stool
+Sjoegren	0	kidney
+Sjoegren	0	skin
+Uveitis	0	blood/immune cells
+Uveitis	0	cartilage
+Uveitis	0	joint
+Uveitis	0	knee
+Uveitis	0	synovium
+Uveitis	0	spleen
+Uveitis	0	lymph node
+Uveitis	88	retina
+Uveitis	0	bone marrow
+Uveitis	0	fibroblasts
+Uveitis	1	not defined
+Uveitis	0	soft tissue
+Uveitis	0	salivary gland
+Uveitis	0	muscle
+Uveitis	0	stool
+Uveitis	0	kidney
+Uveitis	0	skin
+MyoPolyDerma	23	blood/immune cells
+MyoPolyDerma	0	cartilage
+MyoPolyDerma	0	joint
+MyoPolyDerma	0	knee
+MyoPolyDerma	0	synovium
+MyoPolyDerma	0	spleen
+MyoPolyDerma	0	lymph node
+MyoPolyDerma	0	retina
+MyoPolyDerma	0	bone marrow
+MyoPolyDerma	0	fibroblasts
+MyoPolyDerma	180	not defined
+MyoPolyDerma	0	soft tissue
+MyoPolyDerma	0	salivary gland
+MyoPolyDerma	39	muscle
+MyoPolyDerma	0	stool
+MyoPolyDerma	0	kidney
+MyoPolyDerma	3	skin
+RA	4873	blood/immune cells
+RA	0	cartilage
+RA	5	joint
+RA	36	knee
+RA	125	synovium
+RA	0	spleen
+RA	5	lymph node
+RA	0	retina
+RA	0	bone marrow
+RA	0	fibroblasts
+RA	3311	not defined
+RA	0	soft tissue
+RA	0	salivary gland
+RA	29	muscle
+RA	67	stool
+RA	0	kidney
+RA	0	skin
+RA	32	hip
+SpA	33	blood/immune cells
+SpA	0	cartilage
+SpA	0	joint
+SpA	0	knee
+SpA	18	synovium
+SpA	0	spleen
+SpA	0	lymph node
+SpA	0	retina
+SpA	0	bone marrow
+SpA	0	fibroblasts
+SpA	261	not defined
+SpA	0	soft tissue
+SpA	0	salivary gland
+SpA	0	muscle
+SpA	329	stool
+SpA	0	kidney
+SpA	0	skin
+Vasculitis	79	blood/immune cells
+Vasculitis	0	cartilage
+Vasculitis	0	joint
+Vasculitis	0	knee
+Vasculitis	0	synovium
+Vasculitis	0	spleen
+Vasculitis	0	lymph node
+Vasculitis	0	retina
+Vasculitis	0	bone marrow
+Vasculitis	0	fibroblasts
+Vasculitis	42	not defined
+Vasculitis	0	soft tissue
+Vasculitis	0	salivary gland
+Vasculitis	0	muscle
+Vasculitis	0	stool
+Vasculitis	0	kidney
+Vasculitis	0	skin
+AutoSyn	8	blood/immune cells
+AutoSyn	0	cartilage
+AutoSyn	0	joint
+AutoSyn	0	knee
+AutoSyn	0	synovium
+AutoSyn	0	spleen
+AutoSyn	0	lymph node
+AutoSyn	0	retina
+AutoSyn	0	bone marrow
+AutoSyn	0	fibroblasts
+AutoSyn	0	not defined
+AutoSyn	0	soft tissue
+AutoSyn	0	salivary gland
+AutoSyn	0	muscle
+AutoSyn	0	stool
+AutoSyn	0	kidney
+AutoSyn	0	skin
+PsA	10	blood/immune cells
+PsA	0	cartilage
+PsA	0	joint
+PsA	0	knee
+PsA	11	synovium
+PsA	0	spleen
+PsA	0	lymph node
+PsA	0	retina
+PsA	0	bone marrow
+PsA	0	fibroblasts
+PsA	27	not defined
+PsA	0	soft tissue
+PsA	0	salivary gland
+PsA	0	muscle
+PsA	0	stool
+PsA	0	kidney
+PsA	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	12	skin
+SLE	69	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	763	kidney
+SLE	736	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	12	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	6	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	2	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	5	inner ear
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	18	spleen
+SLE	30	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	7	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	3	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	19	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	17	skin
+SLE	65	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	164	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	40	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	9	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	5	peritoneal lavage
+SLE	24	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	0	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	0	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	2	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	0	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin
+SLE	2	blood/immune cells
+SLE	0	cartilage
+SLE	0	joint
+SLE	0	knee
+SLE	0	synovium
+SLE	2	spleen
+SLE	0	lymph node
+SLE	0	retina
+SLE	0	bone marrow
+SLE	0	fibroblasts
+SLE	2	not defined
+SLE	0	soft tissue
+SLE	0	salivary gland
+SLE	0	muscle
+SLE	0	stool
+SLE	0	kidney
+SLE	0	skin

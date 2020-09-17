@@ -1,0 +1,94 @@
+disease	samples	phenotype
+GPA	154	healthy
+GPA	7	not defined
+GPA	170	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	1789	disease
+SysSclerosis	45	healthy
+SysSclerosis	573	not defined
+SysSclerosis	135	disease
+Synovitis	0	healthy
+Synovitis	22	not defined
+Synovitis	12	disease
+JIA	0	healthy
+JIA	0	not defined
+JIA	773	disease
+OA	15	healthy
+OA	1050	not defined
+OA	321	disease
+Sjoegren	0	healthy
+Sjoegren	0	not defined
+Sjoegren	326	disease
+Uveitis	0	healthy
+Uveitis	73	not defined
+Uveitis	16	disease
+MyoPolyDerma	0	healthy
+MyoPolyDerma	0	not defined
+MyoPolyDerma	245	disease
+RA	642	healthy
+RA	4226	not defined
+RA	3615	disease
+SpA	0	healthy
+SpA	0	not defined
+SpA	641	disease
+Vasculitis	0	healthy
+Vasculitis	0	not defined
+Vasculitis	121	disease
+AutoSyn	0	healthy
+AutoSyn	0	not defined
+AutoSyn	8	disease
+PsA	0	healthy
+PsA	37	not defined
+PsA	11	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	12	disease
+SLE	0	healthy
+SLE	317	not defined
+SLE	1251	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	12	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	6	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	2	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	5	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	30	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	29	disease
+SLE	8	healthy
+SLE	0	not defined
+SLE	9	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	65	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	164	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	40	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	9	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	5	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	24	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	2	disease
+SLE	0	healthy
+SLE	0	not defined
+SLE	6	disease

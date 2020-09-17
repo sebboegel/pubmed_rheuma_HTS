@@ -1,0 +1,299 @@
+disease	srp	assay	pubmedid	patient information	comments
+GPA	srp245382	rna-seq	
+GPA	srp149341	amplicon	
+GPA	srp163178	amplicon	
+SLE	srp028162	amplicon	
+SLE	srp028945	mirna-seq	24645875	no access	
+SLE	srp057017	amplicon	
+SLE	srp061633	other	26771485
+SLE	srp062966	rna-seq	26382853	cell line
+SLE	srp073191	rna-seq	27835693	advanced set	age,anti-dsDNA,anti-ENA, clinical manifestation, SLEDAI, medication
+SLE	srp095109	rna-seq	-	no publication listed
+SLE	srp095209	rna-seq	28420548	rudimentary set	RA-/#MTX, MS (disease groups)
+SLE	srp119065	rna-seq	-	no publication listed
+SLE	srp119242	other	
+SLE	srp131775	rna-seq	30478422	rudimentary set	LN stage, minimal info on healthy controls
+SLE	srp131995	atac-seq	30478422
+SLE	srp132939	rna-seq	29669944	advanced set	demographics, history (smoking,T2D,Hypertension), SLE history (duration,lab parameter),medications, clinical chemistry
+SLE	srp133278	rna-seq	29717110	advanced set	age, sledai, c3/3,esr,crp,auto-ab,medication
+SLE	srp136102	rna-seq	31921420,31890206	medium set	SLEDAI, disease manifestation, current med	
+SLE	erp106593	amplicon	
+SLE	srp151215	chip-seq	30046115
+SLE	erp009947	other	
+SLE	srp156582	atac-seq	31263277	
+SLE	srp156583	rna-seq	31263277	advanced set	group,demographics,SLEDAI,medication, ANA reactivoty, prominent clinical features, for each patient	
+SLE	srp156584	bisulfite-seq	31263277
+SLE	srp156606	rna-seq	30130253	mus musculus
+SLE	srp166055	rna-seq	-	no publication listed
+SLE	srp166968	ncrna-seq	-	no publication listed
+SLE	srp168421	rna-seq	30455304	rudimentary set	only demographic
+SLE	srp189104	rna-seq	31780527	advanced set	demographic, sledai, severity, immunsupprevise therapiy, manifestation, comorbidities, medication, serological (e.g. anti-DNA, C3/4)
+SLE	srp192580	wgs	
+SLE	srp217372	amplicon	
+SLE	srp220690	rna-seq	-	no publication listed
+SLE	srp221351	rna-seq	31616406	medium set	demographics, SLEDAI, medication
+SLE	srp226877	rna-seq	31754025	medium set
+SLE	srp237539	rna-seq	31754025	medium set	demographics, SLEDAI, medication, disease duration
+SLE	srp226878	atac-seq	31754025
+SLE	srp260470	other	32580776
+SLE	srp274549	other	
+SLE	srp276219	rna-seq	-	no publication listed
+SLE	erp110386	rna-seq	-	no publication listed
+SLE	srp274175	rna-seq	32818496	mus musculus
+SLE	srp267855 	rna-seq	32628254	rudimentary set		no characterics for ind. (only partial data avail), age, ethnicity, gender
+SLE	SRP250015	rna-seq	32608557	mus musculus
+SLE	SRP238856	rna-seq	32094169	mus musculus	& healthy human
+SLE	SRP178271	rna-seq	31877319	medium set	Sex,race,serology,medication
+SLE	SRP178271	rna-seq	30745462	no patient information	other than which sample is disease/normal
+SLE	SRP220997	rna-seq	31877114	no patient information
+SLE	SRP201998	rna-seq	31391335	mus musculus
+SLE	SRP127986 	rna-seq	30962246	advanced set	demographics, clinical hist, lab values, SLE activity, medications, adverse preg outcom
+SLE	SRP166781	rna-seq	30518690	mus musculus	"lupus"
+SLE	SRP131173	rna-seq	30462277	no patient information	human and mus musculus; on SRA no info about SLE
+SLE	SRP153809	rna-seq	30230983	cell line
+SLE	ERP110303	rna-seq	30220882	cell line
+SLE	SRP159206	rna-seq	30185675	advanced set	age,sex,race,sle duration, SELENA-SLEDAI mean, lab parameter (e.g. WBC, anti-dsDNA,C3), medication
+SLE	SRP132142	rna-seq	29922125	Sus scrofa
+SLE	SRP103106	rna-seq	28584005	mus musculus
+SLE	SRP103040	rna-seq	28469080	medium set	demographics,disease duration, SELENA-SLEDAI score
+SLE	SRP090301	rna-seq	28438897	mus musculus
+SLE	SRP100742 	rna-seq	28339495	medium set	age,sex,disease duration, SELENA-SLEDAI score
+SLE	SRP034564	rna-seq	24796678,26839600	advanced set	organ involvement, medications, autoantibodies, sledai, physician estimate (for each patient ind.)
+SLE	SRP115577	rna-seq	27835701	medium set	LN class, SLEDAI, demographics
+SysSclerosis	srp072350	wxs	
+SysSclerosis	srp106516	amplicon	
+SysSclerosis	srp109118	rna-seq	28662216
+SysSclerosis	srp109674	rna-seq	28662216
+SysSclerosis	srp115292	amplicon	
+SysSclerosis	srp115901	rna-seq	29057934
+SysSclerosis	srp118741	rna-seq	29348297
+SysSclerosis	srp158593	amplicon	
+SysSclerosis	srp168177	rna-seq	31276679
+SysSclerosis	srp168244	rna-seq	30700907
+SysSclerosis	srp173837	chip-seq	30804934
+SysSclerosis	srp173842	rna-seq	30804934
+SysSclerosis	srp193855	atac-seq	
+SysSclerosis	srp197303	rna-seq	31767698
+SysSclerosis	erp110106	rna-seq	
+SysSclerosis	srp220377	rna-seq	
+SysSclerosis	srp238910	rna-seq	31990684
+SysSclerosis	srp247467	rna-seq	
+SysSclerosis	srp265289	rna-seq	32725139
+SysSclerosis	srp267217	rna-seq	
+Synovitis	erp013913	rna-seq	
+Synovitis	erp017899	other	
+Synovitis	srp119788	rna-seq	
+JIA	srp056159	rna-seq	25833190
+JIA	srp056160	chip-seq	25833190
+JIA	srp061881	rna-seq	26387944
+JIA	srp072920	rna-seq	27385437
+JIA	srp074736	rna-seq	28582527
+JIA	srp076627	rna-seq	27385437
+JIA	erp013262	amplicon	
+JIA	srp094977	rna-seq	28288683
+JIA	srp095115	chip-seq	
+JIA	srp095534	medip-seq	
+JIA	srp116312	rna-seq	29426067
+JIA	srp116937	rna-seq	
+JIA	srp136057	rna-seq	29950172
+JIA	srp168642	rna-seq	30619348
+JIA	srp212148	rna-seq	31443725
+JIA	srp254224	rna-seq	
+JIA	srp277051	amplicon	
+OA	srp051399	other	25940674
+OA	erp009122	rna-seq	
+OA	srp067356	rna-seq	27009967
+OA	erp013913	rna-seq	
+OA	erp013914	rna-seq	
+OA	srp092408	rna-seq	28455435
+OA	srp096109	wgs	
+OA	srp099181	wxs	
+OA	srp105344	rna-seq	29669931
+OA	srp107029	amplicon	
+OA	srp108597	rna-seq	29973527
+OA	srp109837	rna-seq	30659184
+OA	srp110029	chip-seq	30659184
+OA	srp115858	wgs	
+OA	srp119687	rna-seq	30026257
+OA	erp024317	rna-seq	
+OA	srp125119	rna-seq	
+OA	srp125915	amplicon	
+OA	erp016680	ncrna-seq	
+OA	erp105501	rna-seq	
+OA	srp127173	atac-seq	30341348
+OA	srp132362	rna-seq	30933975
+OA	srp132866	rna-seq	30544699
+OA	srp133881	rna-seq	30611906
+OA	srp137040	chip-seq	30611906
+OA	srp137042	bisulfite-seq	29765031
+OA	srp139932	rna-seq	31350386
+OA	srp140508	chip-seq	31350386
+OA	erp107920	rna-seq	
+OA	srp144491	rna-seq	30081074
+OA	srp149757	mirna-seq	
+OA	srp149950	rna-seq	
+OA	srp151370	mirna-seq	31350386
+OA	srp153384	rna-seq	
+OA	srp156000	rna-seq	
+OA	srp157964	rna-seq	31950348
+OA	srp162262	rna-seq	
+OA	srp162625	wgs	31681239
+OA	srp164765	rna-seq	31350386
+OA	srp164766	rna-seq	
+OA	srp167288	rna-seq	
+OA	srp168693	rna-seq	
+OA	srp170581	atac-seq	32220312
+OA	srp172871	rna-seq	30674730
+OA	srp173758	rna-seq	
+OA	srp174516	other	
+OA	srp180201	rna-seq	
+OA	erp111913	rna-seq	
+OA	srp186130	mirna-seq	30944259
+OA	srp188077	rna-seq	31015473
+OA	srp188995	rna-seq	31053729
+OA	srp193489	chip-seq	31350386
+OA	srp199302	wgs	
+OA	srp199711	rna-seq	
+OA	erp116943	rna-seq	
+OA	srp241225	rna-seq	
+OA	srp241701	mirna-seq	
+OA	srp241807	other	
+OA	srp242060	rna-seq	32580029
+OA	srp266247	rna-seq	
+OA	srp267949	rna-seq	
+OA	erp117702	ncrna-seq	
+Sjoegren	srp047191	rna-seq	21895886
+Sjoegren	srp073308	amplicon	
+Sjoegren	erp014011	amplicon	
+Sjoegren	srp095209	rna-seq	28420548
+Sjoegren	srp098755	amplicon	
+Sjoegren	srp158992	amplicon	
+Sjoegren	erp110106	rna-seq	
+Sjoegren	srp217929	rna-seq	
+Sjoegren	srp217937	rna-seq	31552042
+Sjoegren	srp219900	rna-seq	31993047
+Sjoegren	srp248024	rna-seq	
+Sjoegren	srp249908	amplicon	
+Sjoegren	srp273133	rna-seq	
+Uveitis	srp223865	rna-seq	31993055
+Uveitis	srp239529	wgs	
+Uveitis	srp244473	rna-seq	32183784
+MyoPolyDerma	srp045119	amplicon	
+MyoPolyDerma	srp081080	rna-seq	
+MyoPolyDerma	srp096959	wgs	18772924
+MyoPolyDerma	srp114567	rna-seq	28808260
+MyoPolyDerma	srp119975	wgs	
+MyoPolyDerma	srp163403	tn-seq	
+MyoPolyDerma	erp022260	rna-seq	
+MyoPolyDerma	srp183096	rna-seq	32529172
+MyoPolyDerma	erp110106	rna-seq	
+MyoPolyDerma	srp212148	rna-seq	31443725
+MyoPolyDerma	srp240643	rna-seq	31945019
+MyoPolyDerma	srp244103	rna-seq	32071274
+RA	srp007941	rna-seq	22562984
+RA	srp009315	rna-seq	23259760
+RA	srp023463	amplicon	
+RA	srp034624	rna-seq	
+RA	srp034535	rna-seq	
+RA	srp042288	rna-seq	28008941
+RA	srp043193	rna-seq	28008941
+RA	srp043707	rna-seq	28008941
+RA	erp006678	wgs	
+RA	erp008469	amplicon	
+RA	srp073033	rna-seq	27282753
+RA	srp077668	rna-seq	27534557
+RA	srp078979	other	27855721
+RA	srp092408	rna-seq	28455435
+RA	srp093699	rna-seq	28148290
+RA	srp096372	rna-seq	
+RA	srp099688	rna-seq	28664171
+RA	srp100687	rna-seq	28409894
+RA	srp100688	mbd-seq	28409894
+RA	srp100612	chip-seq	28409894
+RA	srp100947	rna-seq	31068444
+RA	srp102685	rna-seq	28863153
+RA	srp106634	rna-seq	32029712
+RA	srp107189	rna-seq	30407753
+RA	srp109548	rna-seq	
+RA	srp110255	amplicon	
+RA	srp110580	mirna-seq	28791012
+RA	srp113478	hi-c	
+RA	srp115557	chip-seq	29712771
+RA	erp017267	amplicon	
+RA	srp125671	mirna-seq	29137139
+RA	srp132600	rna-seq	
+RA	srp133278	rna-seq	29717110
+RA	srp136572	mirna-seq	
+RA	srp137040	chip-seq	
+RA	srp137042	bisulfite-seq	29765031
+RA	srp140437	rna-seq	31167762
+RA	srp146547	amplicon	
+RA	srp150122	amplicon	
+RA	srp151749	atac-seq	30224649
+RA	erp107948	chip	
+RA	erp023025	other	
+RA	srp152983	rna-seq	
+RA	srp155483	rna-seq	
+RA	srp156530	rna-seq	
+RA	srp157127	rna-seq	
+RA	srp158491	rna-seq	31167762
+RA	srp158603	rna-seq	
+RA	srp158781	other	
+RA	srp162125	rna-seq	30358109
+RA	srp162262	rna-seq	
+RA	erp111448	rna-seq	
+RA	srp167792	amplicon	
+RA	srp168029	rna-seq	
+RA	srp168244	rna-seq	30700907
+RA	srp169062	rna-seq	31280933
+RA	srp169085	rna-seq	30602780
+RA	srp172871	rna-seq	30674730
+RA	srp174516	other	
+RA	erp104864	rna-seq	
+RA	srp189000	chip-seq	31097419
+RA	srp189002	atac-seq	31097419
+RA	srp191512	rna-seq	31101752
+RA	srp192824	rna-seq	
+RA	erp114936	rna-seq	
+RA	srp212629	rna-seq	32047494
+RA	srp218228	bisulfite-seq	32117312
+RA	srp219116	amplicon	
+RA	srp223483	amplicon	
+RA	erp116461	mirna-seq	
+RA	srp225168	rna-seq	
+RA	srp227528	rna-seq	
+RA	erp116751	rna-seq	
+RA	srp233489	rna-seq	31881419
+RA	srp235240	mirna-seq	
+RA	srp241209	rna-seq	31872186
+RA	srp247536	rna-seq	
+RA	srp247758	wgs	
+RA	srp247942	amplicon	
+RA	srp248466	rna-seq	
+RA	erp117284	rna-seq	
+RA	erp117716	rna-seq	
+RA	erp120998	amplicon	
+RA	srp261405	rna-seq	32484790
+RA	srp276151	rna-seq	
+RA	srp276568	ncrna-seq	
+SpA	srp087829	amplicon	
+SpA	srp092198	amplicon	28179509
+SpA	erp018182	other	
+SpA	srp097639	amplicon	25434931
+SpA	erp104840	other	
+SpA	srp132814	wgs	
+SpA	srp169085	rna-seq	30602780
+SpA	srp184498	rna-seq	31919358
+SpA	srp227528	rna-seq	
+SpA	srp229454	amplicon	
+Vasculitis	drp005226	amplicon	
+Vasculitis	erp014790	wgs	
+Vasculitis	erp023617	targeted-capture	
+Vasculitis	srp122964	other	
+AutoSyn	erp022906	rna-seq	
+PsA	srp095209	rna-seq	28420548
+PsA	srp155483	rna-seq	
+PsA	srp172871	rna-seq	30674730
+PsA	srp212510	mirna-seq	
+PsA	erp116671	other	
+PsA	srp221767	rna-seq	31677365

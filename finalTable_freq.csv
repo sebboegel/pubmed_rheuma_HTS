@@ -1,0 +1,327 @@
+"";"finalICD11_filtered";"Freq"
+"1";"";2
+"2";" acetaminophen";1
+"3";" ach";1
+"4";" acute renal failure";1
+"5";" acute tubulointerstitial nephritis";1
+"6";" adaptive immunity";2
+"7";" adipose tissue";2
+"8";" adults";1
+"9";" ageing";1
+"10";" alk";1
+"11";" aneurysm";1
+"12";" antibodies";1
+"13";" antibody";2
+"14";" antibody deficiency";1
+"15";" antigen";1
+"16";" aquaporin";1
+"17";" arteritis";1
+"18";" arthritis";6
+"19";" aspirin";1
+"20";" asthma";3
+"21";" atherosclerosis";4
+"22";" autism spectrum disorder";1
+"23";" autoantibody";3
+"24";" autoimmune";2
+"25";" autoimmune disease";7
+"26";" autoimmune liver disease";1
+"27";" autoimmunity";26
+"28";" autoinflammatory";4
+"29";" autoinflammatory disorders";1
+"30";" autoinflammatory syndrome";1
+"31";" autosomal dominant";1
+"32";" b cell";5
+"33";" b cells";10
+"34";" bacteria";2
+"35";" bacterial meningitis";1
+"36";" bcg";1
+"37";" binding";1
+"38";" bone";2
+"39";" bone disease";3
+"40";" bone marrow";2
+"41";" c6";1
+"42";" cancer";2
+"43";" cardiovascular disease";1
+"44";" carotid artery";1
+"45";" cartilage";3
+"46";" cataracts";1
+"47";" cd4(+)";1
+"48";" cerebral infarction";1
+"49";" chemotaxis";1
+"50";" chilblain";1
+"51";" child";3
+"52";" children";1
+"53";" chinese";2
+"54";" chlamydia psittaci";1
+"55";" cholangiocarcinoma";1
+"56";" choroid plexus";1
+"57";" chronic rhinosinusitis";1
+"58";" clinic";1
+"59";" coenzyme q(10)";1
+"60";" colchicine";2
+"61";" collagen";1
+"62";" colonization";1
+"63";" complement";2
+"64";" complement system";1
+"65";" compound heterozygous";1
+"66";" congenital hypothyroidism";1
+"67";" connective tissue diseases";1
+"68";" copper";1
+"69";" cystic fibrosis";2
+"70";" damp";1
+"71";" deficiency";1
+"72";" dementia";1
+"73";" dendritic cell";2
+"74";" density";1
+"75";" dermatomyositis";4
+"76";" development";1
+"77";" diagnosis";3
+"78";" diet";1
+"79";" differential diagnosis";1
+"80";" differentiation";4
+"81";" diisocyanate";1
+"82";" dna";1
+"83";" dronabinol";1
+"84";" e6*";1
+"85";" ectodermal dysplasia";1
+"86";" endothelial";1
+"87";" enhancer";3
+"88";" enterobacteriaceae";1
+"89";" enterovirus";1
+"90";" enthesitis";1
+"91";" environment";2
+"92";" environmental factors";2
+"93";" eosinophil";1
+"94";" eosinophilia";1
+"95";" epidermis";1
+"96";" epidermolysis bullosa";1
+"97";" epithelium";1
+"98";" escherichia coli";1
+"99";" extracranial";1
+"100";" fabry disease";3
+"101";" familial mediterranean fever";4
+"102";" fatigue";1
+"103";" fever";1
+"104";" fevers";1
+"105";" ffp";1
+"106";" fibroblast";2
+"107";" fibroblastic reticular cell";1
+"108";" fibrosis";8
+"109";" fibrous dysplasia of bone";1
+"110";" foetal heart";1
+"111";" folate";1
+"112";" follicular dendritic cell";1
+"113";" fracture";1
+"114";" fusion";1
+"115";" gastrointestinal";1
+"116";" gene mutation";2
+"117";" genetic";3
+"118";" genetic bone diseases";1
+"119";" genetic disorder";1
+"120";" genetic susceptibility";1
+"121";" genetics";25
+"122";" gla";1
+"123";" glioma";1
+"124";" glomerulonephritis";1
+"125";" glucocorticoid resistance";1
+"126";" glucocorticoids";1
+"127";" gout";5
+"128";" granulomatosis with polyangiitis";2
+"129";" growth";1
+"130";" heavy chain";1
+"131";" heme";3
+"132";" hepatocellular carcinoma";1
+"133";" hereditary";1
+"134";" histoplasmosis";1
+"135";" human";3
+"136";" human leukocyte antigen";3
+"137";" human papillomavirus";1
+"138";" hypothyroidism";1
+"139";" idiopathic pulmonary fibrosis";2
+"140";" ige";2
+"141";" igg(4)";1
+"142";" immune dysregulation";2
+"143";" immunity";1
+"144";" immunodeficiency";7
+"145";" immunoglobulin";5
+"146";" immunotherapy";4
+"147";" imp";1
+"148";" india";2
+"149";" infection";3
+"150";" inflammation";37
+"151";" inflammatory bowel disease";6
+"152";" inflammatory response";1
+"153";" innate immunity";8
+"154";" interstitial lung disease";4
+"155";" intestine";1
+"156";" iron";1
+"157";" isolation";1
+"158";" japanese";1
+"159";" juvenile idiopathic arthritis";10
+"160";" klebsiella pneumoniae";2
+"161";" knee";1
+"162";" langerhans cell histiocytosis";1
+"163";" leigh syndrome";1
+"164";" leukodystrophy";1
+"165";" liver";1
+"166";" liver fibrosis";1
+"167";" lung";1
+"168";" lung disease";1
+"169";" lupus";14
+"170";" lymph nodes";1
+"171";" lymphocyte";1
+"172";" lymphoma";5
+"173";" lymphopenia";2
+"174";" macula";1
+"175";" magnetic resonance imaging";1
+"176";" malignant lymphoma";1
+"177";" manufacturing";1
+"178";" maturation";1
+"179";" measles";1
+"180";" mechanism";1
+"181";" mechanisms";1
+"182";" melanoma";1
+"183";" memory";1
+"184";" meningitis";1
+"185";" mesothelioma";1
+"186";" metabolism";3
+"187";" method";1
+"188";" microscopy";1
+"189";" mitochondria";3
+"190";" monitoring";1
+"191";" monocyte";2
+"192";" monocytes";5
+"193";" monogenic";2
+"194";" mosaicis";1
+"195";" mosaicism";2
+"196";" mouse";1
+"197";" multiple myeloma";5
+"198";" multiple sclerosis";1
+"199";" mutation";6
+"200";" mutations";1
+"201";" myc";2
+"202";" myelodysplastic syndrome";1
+"203";" myeloma";1
+"204";" myeloproliferative neoplasm";1
+"205";" myofibroblast";1
+"206";" myopathy";3
+"207";" myositis";3
+"208";" neisseria";1
+"209";" neonatal lupus";1
+"210";" neoplasm";1
+"211";" nephritis";1
+"212";" nephrotic syndrome";2
+"213";" net";1
+"214";" neuroendocrine";1
+"215";" neurological disorders";1
+"216";" neutrophil";4
+"217";" nk";2
+"218";" nk cells";1
+"219";" obesity";1
+"220";" osteoarthritis";10
+"221";" osteoblast";1
+"222";" osteoporosis";3
+"223";" outcome";1
+"224";" ovarian cancer";1
+"225";" pain";1
+"226";" paracoccidioidomycosis";1
+"227";" parotid gland";1
+"228";" pdgfr";1
+"229";" pdgfrb";1
+"230";" peac";1
+"231";" periodontitis";1
+"232";" phenotype";1
+"233";" phosphatase";1
+"234";" pituitary";1
+"235";" plasma cell";1
+"236";" plasmablast";1
+"237";" pneumocystis";1
+"238";" pneumonia";1
+"239";" polymyositis";4
+"240";" pregnancy";1
+"241";" prenatal";1
+"242";" preterm labour";1
+"243";" primary immunodeficiencies";5
+"244";" proliferation";2
+"245";" prostate specific antigen";1
+"246";" proteinuria";1
+"247";" psoriasis";8
+"248";" psoriatic arthritis";9
+"249";" pulmonary arterial hypertension";1
+"250";" pulmonary fibrosis";3
+"251";" pulmonary hypertension";1
+"252";" pure red cell aplasia";1
+"253";" ra";2
+"254";" race";1
+"255";" radiation";1
+"256";" regulation";1
+"257";" relapsing polychondritis";1
+"258";" remission";1
+"259";" renal disease";1
+"260";" respiratory diseases";1
+"261";" response";1
+"262";" rest";1
+"263";" retina";1
+"264";" rheumatic heart disease";1
+"265";" rheumatoid";1
+"266";" rheumatoid arthritis";64
+"267";" rheumatoid factor";1
+"268";" risk factor";1
+"269";" risk factors";2
+"270";" sacroiliitis";1
+"271";" saliva";2
+"272";" salivary gland";1
+"273";" sampling";1
+"274";" sarcoma";1
+"275";" savi";2
+"276";" scle";1
+"277";" screening";1
+"278";" sepsis";2
+"279";" sjögren syndrome";1
+"280";" skin";3
+"281";" sle";14
+"282";" small intestine";1
+"283";" smoking";1
+"284";" spondyloarthritis";3
+"285";" sting";1
+"286";" stroke";1
+"287";" stromal";1
+"288";" subtype";1
+"289";" subtypes";1
+"290";" sulfonamide";1
+"291";" survey";1
+"292";" synovitis";4
+"293";" synovium";1
+"294";" systemic lupus erythematosus";37
+"295";" systemic sclerosis";23
+"296";" systemic vasculitis";1
+"297";" testis";1
+"298";" tetracyclines";1
+"299";" therapeutic";1
+"300";" therapy";1
+"301";" thrombocytopenia";1
+"302";" tolerance";2
+"303";" tongue";1
+"304";" tp53";1
+"305";" trail";1
+"306";" traumatic brain injury";1
+"307";" treatment";4
+"308";" tuberculosis";1
+"309";" type 1 diabetes";3
+"310";" type 2 diabetes";1
+"311";" ultrasound";1
+"312";" unclassified";1
+"313";" upper respiratory tract";1
+"314";" urine";1
+"315";" uveitis";2
+"316";" vaccination";2
+"317";" vaccine";1
+"318";" variant";1
+"319";" vasculitides";1
+"320";" vasculitis";6
+"321";" vim";2
+"322";" viral infection";1
+"323";" wes";3
+"324";" wilson disease";1
+"325";" wnt";3
+"326";" x chromosome";1

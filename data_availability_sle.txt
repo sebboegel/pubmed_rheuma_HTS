@@ -1,0 +1,71 @@
+pmid	availability	comments on patient info
+32810232	no information
+32747814	dbGaP
+32677847	no access
+32651195	usage of public NGS data	
+32636238	case report
+32582707	upon request
+32517571	no access
+32503683	upon request
+32500632	upon request
+32355793	no information	age, skmoking, age onset, disease duration, SLEDAI, auto-Abs, medication, comorn & history
+32328467	upon request	not usable patient info, definition of control
+32191636	embargo	mice
+31978801	no access
+31708928	no information
+31616519	upon request
+31608065	upon request
+31395074	upon request
+31390976	no information
+31390156	upon request	mice!
+31360182	no information
+31357913	case report
+31300459	upon request
+31237906	usage of public NGS data
+31216373	usage of public NGS data
+31167757	EGA
+31153744	no access
+31142473	upon request
+31130957	no information
+31085070	no information
+31022271	usage of public NGS data
+30944248	usage of public NGS data
+30911136	EGA	clinical data for individual sample: disease, sex, organ involvement & comorb, elevated autoab or relevant test
+30897597 	no information
+30871426	no access
+30850477	usage of public NGS data
+30836987	upon request
+30763669	no access
+30746468	upon request
+30670047	no information
+30652130	usage of public NGS data
+30577810	no information
+30541881	no information
+30355354	no information
+30319641	no information	mice
+30277008	case report
+30149120	no information
+29873766	no information
+29593737	no information
+29545450	no information
+29367719	no information
+29059182	usage of public NGS data
+28740209	no information
+28500073	no information
+30021804	embargo
+28387599	no information
+28172519	no information
+28062664	EGA
+28053320	case report
+27402083	no information
+27111767	no information
+26815287	no information
+26663909	no information
+26512198	no information
+26001779	no information
+25611806	usage of public NGS data
+25335895	no information
+23349905	no information
+31200750	upon request
+25091625	no information
+25700344	no information
